@@ -1,0 +1,18 @@
+[tool.poetry]
+name = 'bookproject'
+version = '0.1.0'
+description = ""
+authors = ['yan <korotkevich307@gmail.com>']
+readme = 'README.md'
+
+[tool.poetry.dependencies]
+python = '^3.12'
+django = "^5.1.1"
+python-dotenv = "^1.0.1"
+psycopg2 = "^2.9.9"
+requests = "^2.32.3"
+djangorestframework = "^3.15.2"
+
+[build-system]
+requires = ['poetry-core']
+build-backend = "poetry.core.masonry.api"
